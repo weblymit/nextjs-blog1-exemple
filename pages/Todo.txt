@@ -1,0 +1,11 @@
+
+1) Revision
+*variables
+*array
+*map()
+*jsx
+*props
+*state
+
+
+2) Fetching data

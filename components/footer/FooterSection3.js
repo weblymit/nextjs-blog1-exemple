@@ -1,13 +1,16 @@
 import React from 'react'
 import FooterTitleSection from './FooterTitleSection'
 import { IoChevronForwardSharp } from 'react-icons/io5'
+import Link from 'next/link'
 
 const NavComps = ({ title }) => {
   return (
-    <div className="flex items-center space-x-2 pb-4">
-      <IoChevronForwardSharp />
-      <p>{title}</p>
-    </div>
+    <Link href="#">
+      <a className="flex items-center space-x-2 pb-4">
+        <IoChevronForwardSharp />
+        <p>{title}</p>
+      </a>
+    </Link>
   )
 }
 export default function FooterSection3() {

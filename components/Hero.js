@@ -5,12 +5,13 @@ export default function Hero() {
   const imageHero = "url('/image2.webp')"
   return (
     <div
-      className="h-screen bg-cover bg-center bg-no-repeat pt-[30vh] "
+      className="h-screen bg-cover bg-center bg-no-repeat pt-[30vh] bg-fixed"
       style={{ backgroundImage: imageHero }}
     >
       {/* overlay div */}
       <div className="overlay absolute left-0 right-0 top-0 bottom-0 bg-gradient-to-r from-[#f200ff] to-[#ffba42] opacity-80" />
-      <div className="container relative flex h-[25%]s flex-col text-white">
+      {/* paragraph */}
+      <div className="container relative flex flex-col text-white">
         <h2 className="text-xl">Hello! Welcome to</h2>
         <h1 className="mb-5s text-[10vw] font-bold ">Readit blog</h1>
         <div className="w-[47vw] text-lg">
