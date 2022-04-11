@@ -34,7 +34,7 @@ const Home = ({ posts }) => {
 export default Home
 
 export async function getStaticProps() {
-  const api = 'https://jsonplaceholder.typicode.com/posts?_start=0&_limit=20'
+  const api = 'https://jsonplaceholder.typicode.com/posts?_start=0&_limit=8'
   const res = await fetch(api)
   const posts = await res.json()
 
